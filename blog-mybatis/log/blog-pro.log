@@ -1,0 +1,5 @@
+2021-07-22 12:59:49.645  INFO 12504 --- [restartedMain] com.BlogMybatisApplication           : Starting BlogMybatisApplication using Java 16.0.1 on Fanqie with PID 12504 (G:\Demo\MyDemo\blog-mybatis\target\classes started by LWH_5 in G:\Demo\MyDemo\blog-mybatis)
+2021-07-22 12:59:49.649  INFO 12504 --- [restartedMain] com.BlogMybatisApplication           : The following profiles are active: pro
+2021-07-22 12:59:50.275  WARN 12504 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.hua]' package. Please check your configuration.
+2021-07-22 12:59:50.930  WARN 12504 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-07-22 12:59:51.152  INFO 12504 --- [restartedMain] com.BlogMybatisApplication           : Started BlogMybatisApplication in 2.057 seconds (JVM running for 2.749)

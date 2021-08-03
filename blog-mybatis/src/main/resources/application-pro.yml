@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: warn
+    com.hua: info
+  file:
+    name: log/blog-pro.log
+server:
+  port: 8081
