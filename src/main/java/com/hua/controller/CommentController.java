@@ -42,8 +42,7 @@ public class CommentController {
 
     //新增评论
     @PostMapping("/comments")
-    public String addComment(Comment comment, HttpSession session,Model model){
-        System.out.println(comment);
+    public String addComment(Comment comment, HttpSession session){
         User user = (User) session.getAttribute("user");
         if(user!=null){
             comment.setAvatar(user.getAvatar());

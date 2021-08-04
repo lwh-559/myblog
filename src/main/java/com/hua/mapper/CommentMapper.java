@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * 评论持久层接口
+ * 博客评论持久层接口
  *
  * @author <lwh_559@163.com>
  * @since 2021/7/30 17:21

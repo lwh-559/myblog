@@ -40,6 +40,7 @@ public class CommentServiceImpl implements CommentService {
         return commentMapper.getCommentByParentCommentId(blogId,parentCommentId);
     }
 
+    @Override
     public List<Comment> listCommentByBlogId(Long blogId) {
         //查询出父节点
         List<Comment> comments = commentMapper.getCommentByParentCommentId(blogId, Long.parseLong("-1"));

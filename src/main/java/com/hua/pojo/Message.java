@@ -25,8 +25,9 @@ public class Message {
     private String content;//留言内容
     private String avatar;//头像
     private Date createTime;//创建时间
+
     private Long parentMessageId;//父id
-    private boolean adminMessage;//
+    private boolean adminMessage;//管理员留言
 
     //回复评论
     private List<Message> replyMessages = new ArrayList<>();//
