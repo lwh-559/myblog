@@ -63,7 +63,7 @@ public class TypeController {
 
     //跳转到编辑页
     @GetMapping("/types/{id}/input")
-    public String toEditPage(@PathVariable Long id,Model model){
+    public String toEditPage(@PathVariable("id") Long id,Model model){
         Type type = typeService.getTypeById(id);
         model.addAttribute("type",type);
         return "admin/types-input";

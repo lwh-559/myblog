@@ -53,8 +53,6 @@ public class IndexController {
         PageInfo<Blog> pageInfo = new PageInfo<Blog>(allBlog);
         model.addAttribute("pageInfo",pageInfo);
         model.addAttribute("query",query);
-        System.out.println(query);
-        System.out.println("=====================");
         return "search";
     }
 
@@ -101,5 +99,11 @@ public class IndexController {
     @GetMapping("/about")
     public String aboutMe(){
         return "about";
+    }
+
+    //音乐盒
+    @GetMapping("/music")
+    public String music(){
+        return "music";
     }
 }

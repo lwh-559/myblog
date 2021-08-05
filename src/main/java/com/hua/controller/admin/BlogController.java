@@ -42,7 +42,6 @@ public class BlogController {
         PageInfo<BlogQuery> pageInfo = new PageInfo<BlogQuery>(list);
         model.addAttribute("pageInfo",pageInfo);
         model.addAttribute("types",typeService.getTypeAll());
-        System.out.println("11111111");
         return "admin/blogs";
     }
     //搜索博客
@@ -90,7 +89,6 @@ public class BlogController {
     //更新博客
     @PostMapping("/blogs/update")
     public String toUpdateBlogPage(Blog blog, Model model,RedirectAttributes attributes){
-        System.out.println(blog);
         int i = blogService.updateBlog(blog);
         if (i==1){
             attributes.addFlashAttribute("message","修改成功");
