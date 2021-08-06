@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索结果</title>
+  <link href="../static/images/me.jpg" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+  <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+</head>
+<body>
+
+<!--导航-->
+<nav class="gird-header">
+  <div th:replace="~{_fragment::menu(8)}"></div>
+</nav>
+
+
+<!--顶部图片-->
+<div class="m-bg-type_outer" style="width: 100%;height: 40%">
+  <img src="../static/images/typebg.jpg" th:src="@{/images/typebg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
+  <div class="m-bg-class_cover">
+    <div class="ui container" style="position: relative ;bottom: -540px;">
+      <div class="m-font-size-title m-right-bottom" align="center" style="font-family:'STXingkai'">搜索结果</div>
+      <div class="m-font-size-text-init-title m-margin-top" align="center">人生，就是一个不断寻找的过程</div>
+    </div>
+  </div>
+</div>
+
+  <!--中间内容-->
+  <div  class="m-margin-">
+    <div class="ui container">
+      <!--header-->
+      <div class="ui top attached segment">
+        <div class="ui middle aligned two column grid">
+          <div class="column">
+            <h3 class="ui teal header">搜索结果</h3>
+          </div>
+          <div class="right aligned column">
+            共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${pageInfo.total}"> 14 </h2> 个
+          </div>
+        </div>
+      </div>
+
+      <div class="ui top attached segment">
+        <div class="ui padded segment m-padded-tb-large m-opacity" th:each="blog:${pageInfo.getList()}">
+          <div class="ui large aligned mobile reversed stackable grid">
+            <!--博文信息-->
+            <div class="eleven wide column ">
+              <h3 class="ui header" ><a th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black" th:text="${blog.title}">标题</a></h3>
+              <p class="m-text m-margin-top-max" th:text="|${blog.description}......|">描述</p>
+              <div class="ui m-margin-top-max grid">
+                <div class="eleven wide column">
+                  <div class="ui mini horizontal link list">
+                    <div class="item">
+                      <!--作者头像-->
+                      <img th:src="@{${blog.user.avatar}}"  alt="" class="ui avatar image">
+                      <div class="content"><a th:href="@{/about}" target="_blank" class="header" th:text="${blog.user.nickname}">作者昵称</a></div>
+                    </div>
+                    <div class="item">
+                      <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2020-01-01</span>
+                    </div>
+                    <div class="item">
+                      <i class="eye icon"></i> <span th:text="${blog.views}">2222</span>
+                    </div>
+                    <div class="item">
+                      <i class="comment outline icon"></i> <span th:text="${blog.commentCount}">2222</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="right aligned five wide column">
+                  <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin" th:text="${blog.type.name}">好文</a>
+                </div>
+              </div>
+            </div>
+
+            <!--博文图片-->
+            <div class="five wide column">
+              <a th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
+                <img th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!--分页-->
+      <div class="ui bottom attached segment m-opacity stackable grid">
+        <div class="three wide column" align="center">
+          <a class="item" th:href="@{/(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" th:unless="${pageInfo.isFirstPage}">上一页</a>
+        </div>
+
+        <div class="ten wide column" align="center">
+          <p> <span th:text="${pageInfo.pageNum}"></span> / <span th:text="${pageInfo.pages}"></span> </p>
+        </div>
+
+        <div class="three wide column" align="center">
+          <a class="item" th:href="@{/(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:1)}" th:unless="${pageInfo.isLastPage}">下一页</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+<!--底部栏-->
+<footer th:replace="~{_fragment::footer}"></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+  $('.menu.toggle').click(function () {
+    $('.m-item').toggleClass('m-mobile-hide');
+  });
+</script>
+
+<script th:replace="~{_fragment::script}"></script>
+</body>
+</html>

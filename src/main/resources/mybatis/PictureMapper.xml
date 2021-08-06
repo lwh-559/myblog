@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hua.mapper.PictureMapper">
+    <!--新增图片-->
+    <insert id="addPicture" parameterType="Picture">
+        insert into myblog.t_picture(pictureaddress, picturedescription, picturename, picturetime)
+                    values(#{pictureaddress},#{picturedescription},#{picturename},#{picturetime})
+    </insert>
+    <!--删除图片-->
+    <delete id="delPictureById">
+        delete from myblog.t_picture where id = #{id}
+    </delete>
+    <!--修改图片-->
+    <update id="updatePicture" parameterType="Picture">
+        update myblog.t_picture
+        set picturename = #{picturename}, picturetime = #{picturetime}, pictureaddress = #{pictureaddress}, picturedescription = #{picturedescription}
+        where id = #{id};
+    </update>
+    <!--根据ID查询图片-->
+    <select id="getPictureById" resultType="Picture">
+        select * from myblog.t_picture where id=#{id}
+    </select>
+
+    <select id="getAllPicture" resultType="Picture">
+        select * from myblog.t_picture order by t_picture.id desc
+    </select>
+
+</mapper>
