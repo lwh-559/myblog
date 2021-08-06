@@ -388,7 +388,7 @@ body{
     line-height: 50px;
     padding-left: 6px;
     /*这里是阴影设置的颜色做后一个0是阴影不透明度*/
-    background-color: rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, .15);
     /*background-color: rgba(0, 0, 0, .60);*/
     /*color: #FFFFFF;*/
     /*font-size: 26px;*/

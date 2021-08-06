@@ -6,7 +6,6 @@
     <title>首页</title>
     <link href="../static/images/me.jpg" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
-<!--    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min.css}">&lt;!&ndash;没有&ndash;&gt;-->
     <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
 </head>
 <body>
@@ -33,8 +32,8 @@
 <!--            <a href="#" class="ui tencent circular icon button"><i class="user icon"></i></a>-->
             <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
             <a href="#" class="ui qq circular icon button" data-content="2247911483" data-position="bottom center"><i class="qq icon"></i></a>
-            <a href="https://github.com/oneStarLR/" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
-<!--            <a href="https://blog.csdn.net/One_L_Star" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>-->
+            <a href="https://github.com/lwh-559" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
+            <a href="https://gitee.com/lwh_559" target="_blank" class="ui git circular icon button" data-content="点击跳转Gitee" data-position="bottom center"><i class="git icon"></i></a>
             <a href="#" class="ui email circular icon button" data-content="LWH_559@163.com" data-position="bottom center"><i class="envelope  icon"></i></a>
         </div>
 
@@ -47,7 +46,7 @@
             <div align="center">QQ</div>
         </div>
 
-        <h3 class="m-font-size-text" align="center">欢迎来到我的博客，我是番茄西红柿，爱番茄不爱西红柿</h3>
+        <h3 class="m-font-size-text" align="center">欢迎来到我的博客，我是番茄西红柿</h3>
         <hr style="width: 30%">
         <h5 class="m-font-size-text-init-title m-margin-top-large">“大圣，此去欲何?”</h5>
         <h5 class="m-font-size-text-init-title">“踏南天，碎凌霄”</h5>
@@ -178,11 +177,19 @@
 <!--底部栏-->
 <footer th:replace="~{_fragment::footer}"></footer>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
 <script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+
+<!--雪花效果-->
+<script src="http://www.lmlblog.com/winter/templets/xq/js/snowy.js"></script>
+<script src="http://www.lmlblog.com/blog/12/js/Snow.js"></script>
+<style type="text/css">
+    .snow-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;}
+</style>
+<div class="snow-container"></div>
+<!--磁铁线条-->
+<script type="text/javascript" color="0,0,255" opacity='1' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
 <script>
 
@@ -191,11 +198,11 @@
 
     });
 
-    // 显示公众号
-    $('.tencent').popup({
-        popup : $('.tencent-qr'),
-        position: 'bottom center'
-    });
+    // // 显示公众号
+    // $('.tencent').popup({
+    //     popup : $('.tencent-qr'),
+    //     position: 'bottom center'
+    // });
 
     // 显示微信
     $('.wechat').popup({
@@ -212,8 +219,8 @@
     // 显示邮箱
     $('.email').popup();
 
-    // 显示CSDN
-    $('.csdn').popup();
+    // 显示gitee
+    $('.git').popup();
 
     // 显示github
     $('.github').popup();

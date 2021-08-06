@@ -484,7 +484,7 @@ h5,h6{font-size:1em;}
               <div class="content">
                 <a class="author" >
                   <span th:text="${comment.nickname}">Matt</span>
-                  <div class="ui mini basic teal left pointing label m-padded-mini" th:if="${comment.adminComment}">栈主</div>
+                  <div class="ui mini basic teal left pointing label m-padded-mini" th:if="${comment.adminComment}">博主</div>
                 </a>
                 <div class="metadata">
                   <span class="date" th:text="${#dates.format(comment.createTime,'yyyy-MM-dd HH:mm')}">Today at 5:42PM</span>
@@ -507,7 +507,7 @@ h5,h6{font-size:1em;}
                   <div class="content">
                     <a class="author" >
                       <span th:text="${reply.nickname}">小红</span>
-                      <div class="ui mini basic teal left pointing label m-padded-mini"  th:if="${reply.adminComment}">栈主</div>
+                      <div class="ui mini basic teal left pointing label m-padded-mini"  th:if="${reply.adminComment}">博主</div>
                       &nbsp;<span class="m-teal" th:text="|@ ${reply.parentNickname}|">@ 小白</span>
                     </a>
                     <div class="metadata">
@@ -591,6 +591,8 @@ h5,h6{font-size:1em;}
 <script src="../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
 <script src="../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
 <script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+<!--磁铁线条-->
+<script type="text/javascript" color="0,0,255" opacity='1' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
 <script th:inline="javascript">
     // $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
