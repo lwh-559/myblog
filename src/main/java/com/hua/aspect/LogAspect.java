@@ -42,7 +42,7 @@ public class LogAspect {
 
     @After("log()")
     public void doAfter(){
-        System.out.println("===========doAfter==============");
+//        System.out.println("===========doAfter==============");
     }
 
     @AfterReturning(returning = "result",pointcut = "log()")

@@ -74,7 +74,6 @@ public class IndexController {
     //    博客信息
     @GetMapping("/footer/blogmessage")
     public String blogMessage(Model model){
-        System.out.println("博客详情=======");
         int blogTotal = blogService.getBlogTotal();
         int blogViewTotal = blogService.getBlogViewTotal();
         int blogCommentTotal = blogService.getBlogCommentTotal();

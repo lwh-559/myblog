@@ -4,8 +4,6 @@ logging:
     com.hua: debug
   file:
     name: log/blog-dev.log
-server:
-  port: 8080
 
 spring:
   thymeleaf:

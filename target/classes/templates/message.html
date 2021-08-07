@@ -18,7 +18,7 @@
 
 <!--顶部图片-->
 <div class="m-bg-type_outer" style="width: 100%;height: 40%">
-  <img src="../static/images/messagebg.jpg" th:src="@{/images/messagebg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
+  <img src="../static/images/messagebg.jpg" th:src="@{/images/messageImg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
   <div class="m-bg-class_cover">
     <div class="ui container" style="position: relative ;bottom: -540px;">
       <div class="m-font-size-title m-right-bottom" align="center" style="font-family:'STXingkai'">留言板</div>
@@ -150,16 +150,11 @@
 <script type="text/javascript" color="0,0,255" opacity='1' zIndex="-2" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
 <script>
-    $('.menu.toggle').click(function () {
-        $('.m-item').toggleClass('m-mobile-hide');
-    });
-
     $('.wechat').popup({
         popup : $('.wechat-qr'),
         position: 'bottom center'
     });
     $('.qq').popup();
-
 
     //评论表单验证
     $('.ui.form').form({
@@ -235,7 +230,6 @@
         $("[name='parentMessage.id']").val(messageId);
         $(window).scrollTo(0,500);
     }
-
 </script>
 
 <script th:replace="~{_fragment::script}"></script>

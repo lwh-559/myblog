@@ -1,12 +1,12 @@
 spring:
   profiles:
-    active: dev
+    active: pro
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # serverTimezone可以设置为北京时间GMT%2B8、上海时间Asia/Shanghai或者香港时间HongKong
-    url: jdbc:mysql://localhost:3306/myblog?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
+    url: jdbc:mysql://192.168.248.129:3306/myblog?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
     username: root
-    password: 123456
+    password: luoweihua666...
 
 mybatis:
   type-aliases-package: com.hua.pojo
