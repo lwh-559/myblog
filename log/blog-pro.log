@@ -1022,3 +1022,150 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 2021-08-08 01:32:14.064  INFO 5828 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : index
 2021-08-08 01:32:14.168  INFO 5828 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
 2021-08-08 01:32:14.181  INFO 5828 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:21.171  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:27:21.676  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:27:22.267  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:22.290  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:33.457  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:27:33.460  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:27:42.034  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/message, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.toMessagePage, args=[])
+2021-08-08 10:27:42.037  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : message
+2021-08-08 10:27:42.157  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:42.165  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:42.190  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/queryMessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.queryMessage, args=[{}])
+2021-08-08 10:27:42.194  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : message :: messageList
+2021-08-08 10:27:47.083  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/picture, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.PictureShowController.pictureShow, args=[{}])
+2021-08-08 10:27:47.099  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : picture
+2021-08-08 10:27:50.561  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/message, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.toMessagePage, args=[])
+2021-08-08 10:27:50.562  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : message
+2021-08-08 10:27:50.641  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:50.649  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:50.669  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/queryMessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.queryMessage, args=[{}])
+2021-08-08 10:27:50.673  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : message :: messageList
+2021-08-08 10:27:51.443  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:27:51.444  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:27:52.719  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.archivesShow, args=[{}])
+2021-08-08 10:27:52.728  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : archives
+2021-08-08 10:27:52.816  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:52.824  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:54.217  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.TypeShowController.typesShow, args=[-1, {}, 1])
+2021-08-08 10:27:54.243  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : types
+2021-08-08 10:27:54.326  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:54.332  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:55.257  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.archivesShow, args=[{}])
+2021-08-08 10:27:55.264  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : archives
+2021-08-08 10:27:55.363  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:55.375  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:57.581  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.TypeShowController.typesShow, args=[-1, {}, 1])
+2021-08-08 10:27:57.599  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : types
+2021-08-08 10:27:57.666  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:57.677  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:27:58.337  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:27:58.359  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:27:58.472  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:27:58.482  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:28:03.330  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.TypeShowController.typesShow, args=[-1, {}, 1])
+2021-08-08 10:28:03.357  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : types
+2021-08-08 10:28:03.430  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:28:03.438  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:28:04.232  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.archivesShow, args=[{}])
+2021-08-08 10:28:04.241  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : archives
+2021-08-08 10:28:04.331  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:28:04.341  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:28:06.281  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:28:06.282  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:28:06.992  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/message, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.toMessagePage, args=[])
+2021-08-08 10:28:06.993  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : message
+2021-08-08 10:28:07.080  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:28:07.091  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:28:07.115  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/queryMessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.queryMessage, args=[{}])
+2021-08-08 10:28:07.118  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : message :: messageList
+2021-08-08 10:28:08.030  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/picture, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.PictureShowController.pictureShow, args=[{}])
+2021-08-08 10:28:08.036  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : picture
+2021-08-08 10:28:09.209  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/about, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.aboutMe, args=[])
+2021-08-08 10:28:09.210  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : about
+2021-08-08 10:28:09.301  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:28:09.310  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:29:09.266  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:29:09.293  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:29:09.412  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:29:09.424  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:30:09.597  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:30:09.597  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:47:09.421  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:47:09.421  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:47:52.109  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:47:52.139  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:47:52.289  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:47:52.300  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:47:56.387  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:47:56.412  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:47:56.543  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:47:56.554  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:49:13.710  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:49:13.739  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:49:13.888  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:49:13.900  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:49:27.250  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/about, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.aboutMe, args=[])
+2021-08-08 10:49:27.251  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : about
+2021-08-08 10:49:27.352  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:49:27.364  INFO 8772 --- [http-nio-8080-exec-2] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:50:00.859  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:50:00.880  INFO 8772 --- [http-nio-8080-exec-7] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:50:01.029  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:50:01.041  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:50:15.499  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/about, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.aboutMe, args=[])
+2021-08-08 10:50:15.500  INFO 8772 --- [http-nio-8080-exec-3] com.hua.aspect.LogAspect                 : Result : about
+2021-08-08 10:50:15.585  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:50:15.592  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:50:21.020  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:50:21.043  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:50:21.195  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:50:21.203  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:51:23.158  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:51:23.178  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:51:23.303  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:51:23.310  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:52:59.654  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:52:59.683  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:52:59.824  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:52:59.833  INFO 8772 --- [http-nio-8080-exec-5] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:08.510  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/search, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.searchBlog, args=[简介, {}, 1])
+2021-08-08 10:53:08.541  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : search
+2021-08-08 10:53:08.616  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:08.627  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:13.666  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:53:13.690  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:53:13.814  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:13.826  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:17.144  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:53:17.165  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:53:17.293  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:17.299  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:21.855  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/music, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.music, args=[])
+2021-08-08 10:53:21.856  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : music
+2021-08-08 10:53:51.616  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/message, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.toMessagePage, args=[])
+2021-08-08 10:53:51.616  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : message
+2021-08-08 10:53:51.697  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:51.703  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:51.764  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/queryMessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.MessageController.queryMessage, args=[{}])
+2021-08-08 10:53:51.766  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : message :: messageList
+2021-08-08 10:53:52.761  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/picture, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.PictureShowController.pictureShow, args=[{}])
+2021-08-08 10:53:52.765  INFO 8772 --- [http-nio-8080-exec-9] com.hua.aspect.LogAspect                 : Result : picture
+2021-08-08 10:53:54.320  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/about, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.aboutMe, args=[])
+2021-08-08 10:53:54.321  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : about
+2021-08-08 10:53:54.398  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:54.404  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:55.680  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.index, args=[{}, 1])
+2021-08-08 10:53:55.701  INFO 8772 --- [http-nio-8080-exec-6] com.hua.aspect.LogAspect                 : Result : index
+2021-08-08 10:53:55.889  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:53:55.899  INFO 8772 --- [http-nio-8080-exec-1] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:53:59.606  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/blog/85, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blog, args=[85, {}])
+2021-08-08 10:53:59.672  INFO 8772 --- [http-nio-8080-exec-8] com.hua.aspect.LogAspect                 : Result : blog
+2021-08-08 10:54:00.303  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/footer/blogmessage, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.IndexController.blogMessage, args=[{}])
+2021-08-08 10:54:00.310  INFO 8772 --- [http-nio-8080-exec-4] com.hua.aspect.LogAspect                 : Result : _fragment :: blogMessage
+2021-08-08 10:54:00.346  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Request : LogAspect.RequestLog(url=http://localhost:8080/comments/85, ip=0:0:0:0:0:0:0:1, classMethod=com.hua.controller.CommentController.queryComment, args=[85, {}])
+2021-08-08 10:54:00.350  INFO 8772 --- [http-nio-8080-exec-10] com.hua.aspect.LogAspect                 : Result : blog :: commentList
+2021-08-08 10:58:37.053  INFO 9512 --- [main] com.hua.BlogMybatisApplicationTests      : Starting BlogMybatisApplicationTests using Java 16.0.1 on Fanqie with PID 9512 (started by LWH_5 in G:\Demo\idea-workspace-2\myblog)
+2021-08-08 10:58:37.054  INFO 9512 --- [main] com.hua.BlogMybatisApplicationTests      : The following profiles are active: pro
+2021-08-08 10:58:42.252  INFO 9512 --- [main] com.hua.BlogMybatisApplicationTests      : Started BlogMybatisApplicationTests in 5.788 seconds (JVM running for 6.886)
